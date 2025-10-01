@@ -22,7 +22,7 @@ app.use('/api/message',messageRouter);
 app.use('/api/credit',creditRouter)
 //Routes
 app.get('/',(req,res)=>{
-    res.send("Home Page...")
+    res.send("Server is live now")
 });
 
 //razorpay
